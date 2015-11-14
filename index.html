@@ -3,19 +3,20 @@
 <head>
 	<meta charset="UTF8">
 	<title>Решение квадратных уравнений</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<h1>Введите коэффициенты квадратного уравнения</h1>
-	<div class="equation">
-		<input id="js-first-factor" type="text">
-		<span>x2 + </span>
-		<input id="js-second-factor" type="text">
-		<span>x + </span>
-		<input id="js-third-factor" type="text">
-		<span> = 0</span>
-		<input id="js-count" type="button" value="Посчитать">
+	<h3>Введите коэффициенты квадратного уравнения</h3>
+	<div class="equat">
+		<input class="equat__input" id="js-first-factor" type="text">
+		<span class="equat__static">x<span class="power">2</span> + </span>
+		<input class="equat__input" id="js-second-factor" type="text">
+		<span class="equat__static">x + </span>
+		<input class="equat__input" id="js-third-factor" type="text">
+		<span class="equat__static"> = 0</span>
+		<input class="equat__submit" id="js-count" type="button" value="Посчитать">
 	</div>
-	<div id="js-result"></div>
+	<div class="result" id="js-result"></div>
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

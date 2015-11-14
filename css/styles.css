@@ -1,0 +1,24 @@
+body {
+	font-family: sans-serif;
+}
+
+.power {
+	font-size: 0.7em;
+	vertical-align: top;
+}
+
+.equat__input {
+	width: 50px;
+}
+
+.equat__static {
+	font-weight: bold;
+}
+
+.equat__submit {
+	margin-left: 20px;
+}
+
+.result {
+	margin-top: 20px;
+}
